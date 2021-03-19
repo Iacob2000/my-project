@@ -30,12 +30,7 @@ const IdealPhoto = ( ) => {
 }
 const styles = StyleSheet.create({
 
-heder:{
-  width: '100%',
- marginStart:'80%', 
-  backgroundColor:'#3b3534'
 
-},
 textHeder:{
 width: '100%',
 height:'10%',
@@ -58,6 +53,7 @@ card:{
   shadowOpacity: 1,
 
 },
+
 cardImage:{
   width:'100%',
   height:200,
