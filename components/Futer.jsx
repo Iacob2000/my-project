@@ -4,13 +4,15 @@ import {StyleSheet,View,Text} from 'react-native'
 
 function Footer() {
     return (
+       
         <View style = {styles.MyFooter}>
           <Text style = {styles.TextContact}>  Contact: </Text>
           <Text style={styles.TextDetalii}>stelicaiacob80@yahoo.com </Text> 
           <Text style={styles.TextDetalii}>0728834084</Text> 
-          <Text style = {styles.TextDetalii}> https://github.com/Iacob2000 </Text>
+          <Text style = {styles.TextDetalii} > https://github.com/Iacob2000 </Text>
           <Text style = {styles.TextDetalii}> https://www.linkedin.com/in/iacob-stelică-5b4783203</Text>
         </View>
+       
     )
 }
 const styles = StyleSheet.create({
@@ -38,8 +40,7 @@ const styles = StyleSheet.create({
         marginStart:250,
         fontSize: 15,
         marginTop: 15,
-        position:'relative'
-       
+        position:'relative' 
     }
     })
 export default Footer;

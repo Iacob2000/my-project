@@ -3,25 +3,30 @@ import React, { useState } from 'react';
 import { StyleSheet, Text, View, Button ,ImageBackground,Image, ScrollView,TouchableOpacity} from 'react-native';
 import Header from './components/Header';
 import Footer from './components/Futer';
+import Container from './components/ContainerProject';
+
 
 const MyProjects = ( ) => {
   return (
-    <View 
-        style ={{ width: '100%',
-        height: '100%',
-        position:'absolute',
-       backgroundColor:'black'}}>
+    
+    <View style = {styles.styleView}>
          
           <Header/>
-         
-         
-
           
+          <Container />
+        
           <Footer/>
-          
+        
     </View>
+   
   )
 }
-const styles = StyleSheet.create({
+const styles = StyleSheet.create({ 
+  styleView :{ 
+  width: '100%',
+  height: '100%',
+  position:'absolute',
+  backgroundColor:'black'}
 })
+
 export default MyProjects;
