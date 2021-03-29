@@ -24,8 +24,8 @@ const MyProjects = ( ) => {
 const styles = StyleSheet.create({ 
   styleView :{ 
   width: '100%',
-  height: '100%',
-  position:'absolute',
+  height: '190%',
+  position:'relative',
   backgroundColor:'black'}
 })
 

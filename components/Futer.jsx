@@ -5,7 +5,7 @@ import {StyleSheet,View,Text} from 'react-native'
 function Footer() {
     return (
        
-        <View style = {styles.MyFooter}>
+        <View style={styles.MyFooter}>
           <Text style = {styles.TextContact}>  Contact: </Text>
           <Text style={styles.TextDetalii}>stelicaiacob80@yahoo.com </Text> 
           <Text style={styles.TextDetalii}>0728834084</Text> 
@@ -20,9 +20,9 @@ const styles = StyleSheet.create({
         width: '100%',
         height: 'auto',
         backgroundColor:'#3b3534',
-        position:'relative',
-        top:600,
-        
+        position:'absolute',
+        top:1300,
+      
         },
     TextContact:{
         width:'30%',
