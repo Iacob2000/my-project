@@ -21,7 +21,7 @@ const styles = StyleSheet.create({
         height: 'auto',
         backgroundColor:'#3b3534',
         position:'absolute',
-        top:1300,
+        top:2500,
       
         },
     TextContact:{

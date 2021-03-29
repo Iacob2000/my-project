@@ -10,7 +10,10 @@ function ContainerProject() {
               <h1>{data.name}</h1>
               <h2>{data.descriere}</h2>
               <View style = {styles.Image}>
-            <img src ={data.image} />
+            
+            <img src ={data.image}  />
+           
+        
               </View>
               </View>
               
@@ -29,10 +32,14 @@ Container: {
     borderRadius:'5%'
 },
 Text:{
-    color:'white'
+    color:'white',
+    position:'relative',
+    left:30
 },
 Image:{
-    width:150,
-    height:'auto'
+    width:250,
+    height:'auto',
+    position:'relative',
+    left:'70%'
 }})
 export default ContainerProject;
