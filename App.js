@@ -1,32 +1,38 @@
-import { StatusBar } from 'expo-status-bar';
-import React, { useState } from 'react';
-import { StyleSheet, Text, View, Button ,ImageBackground,Image, ScrollView,TouchableOpacity} from 'react-native';
-import Header from './components/Header';
-import Footer from './components/Futer';
-import Container from './components/ContainerProject';
+import {BrowserRouter, BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import React ,{ Component }from 'react';
+import { StyleSheet} from 'react-native';
+import Home from './components/Home';
+import About from './components/About';
+import Page404 from './components/Page404'
 
-
-const MyProjects = ( ) => {
+export default class MyProjects extends React.Component{
+  constructor() {
+    super();
+    this.state = {};
+  }
+  render(){
   return (
+    <div>
+    <BrowserRouter>
     
-    <View style = {styles.styleView}>
-         
-          <Header/>
-          
-          <Container />
-        
-          <Footer/>
-        
-    </View>
+    
    
-  )
+     
+      <Route path='/' component={Home}/>
+      <Route path='/about' component={About}/>
+      <Route path='*' component={Page404}/>
+  
+
+  </BrowserRouter>
+  </div>
+  );
+}
 }
 const styles = StyleSheet.create({ 
   styleView :{ 
     width: '100%',
-    height: '350%',
+    height: 'auto',
   position:'absolute',
   backgroundColor:'black'}
 })
 
-export default MyProjects;
