@@ -18,11 +18,16 @@ function Home() {
               <h3>{data.link}</h3>
               <h3>{data.avalible}</h3>
               
-              <View style = {styles.Image}>
+            <div style ={{}} >
+
                <img src ={data.image}/>
+              
+            </div>
+
+
               </View>
               
-              </View>
+              
               
               
              
@@ -48,15 +53,7 @@ ContainerText:{
     textAlign:'center',
    
     
-},
-Image:{
-    width:180,
-    height:'auto',
-    position:'absolute',
-    left:'80%',
-    top:"10%"
-   
-},
+}
 
 })
 export default Home;

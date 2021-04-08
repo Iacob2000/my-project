@@ -3,6 +3,7 @@ import {StyleSheet,View,Text} from 'react-native-web';
 
 
 
+
 function Footer() {
     return (
        
@@ -11,7 +12,7 @@ function Footer() {
           <Text style={styles.TextDetalii}>stelicaiacob80@yahoo.com </Text> 
           <Text style={styles.TextDetalii}>0728834084</Text> 
           <Text style= {styles.TextDetalii}> https://www.linkedin.com/in/iacob-stelică-5b4783203 </Text>
-          <Text style = {styles.TextDetalii}> https://www.linkedin.com/in/iacob-stelică-5b4783203</Text>
+          <Text style= {styles.TextDetalii}> https://github.com/Iacob2000 </Text>
           <Text style = {styles.CopyWrite}> © Iacob Stelică,April 2021</Text>
         </View>
        

@@ -1,13 +1,14 @@
 import React from 'react'
-import {StyleSheet,View,Text, ImageBackground} from 'react-native-web'
+import {StyleSheet,View,Text , ImageBackground} from 'react-native-web'
 import Image from '../assets/WhatsApp Image 2021-02-08 at 09.53.08.jpeg'
+import {Link} from 'react-router-dom'
 function Header() {
     return (
    
 <View style = {styles.MyHeader}> 
  <img src={Image} style ={{  width: 70,height: 70,borderRadius:'100%',position: 'relative',left:'70%'}}/>
- <Text style = {styles.textHeder}>My Projects</Text>
- <Text style = {styles.textHeder2}> About me</Text>
+ <Link style ={{color: 'white',position:'absolute',left:'10%',fontSize:30,top:15}} to="/">My Projects</Link>
+ <Link style ={{color: 'white',position:'absolute',left:'77%',fontSize:30,top:15}} to="/about">About me </Link>
 </View >
 
   )

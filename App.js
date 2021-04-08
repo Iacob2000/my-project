@@ -13,16 +13,18 @@ export default class MyProjects extends React.Component{
   render(){
   return (
     <div>
-    <BrowserRouter>
+      <BrowserRouter>
+    <Switch>
+     
     
     
    
-     
-      <Route path='/' component={Home}/>
+    <Route exact path='/' component={Home}/>
       <Route path='/about' component={About}/>
       <Route path='*' component={Page404}/>
   
 
+  </Switch>
   </BrowserRouter>
   </div>
   );
