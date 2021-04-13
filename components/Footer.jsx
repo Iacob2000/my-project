@@ -11,8 +11,24 @@ function Footer() {
           <Text style = {styles.TextContact}>  Contact: </Text>
           <Text style={styles.TextDetalii}>stelicaiacob80@yahoo.com </Text> 
           <Text style={styles.TextDetalii}>0728834084</Text> 
-          <Text style= {styles.TextDetalii}> https://www.linkedin.com/in/iacob-stelică-5b4783203 </Text>
-          <Text style= {styles.TextDetalii}> https://github.com/Iacob2000 </Text>
+          <a style ={{ 
+        color:'white',
+        style:'bold',
+        width:'100%',
+        marginStart:250,
+        width:150,
+        fontSize: 15,
+        marginTop: 15,
+        position:'relative',
+        left:'20%'}} href='https://github.com/Iacob2000'>My Githup account</a>
+          <a style ={{  color:'white',
+        style:'bold',
+        marginStart:250,
+        fontSize: 15,
+        width:150,
+        marginTop: 15,
+        position:'relative',
+        left:'20%'}} href='https://www.linkedin.com/in/iacob-stelic%C4%83-5b4783203'>My Linkdin account</a>
           <Text style = {styles.CopyWrite}> © Iacob Stelică,April 2021</Text>
         </View>
        

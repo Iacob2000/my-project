@@ -4,7 +4,7 @@ import Footer from '../components/Footer';
 import {StyleSheet, View} from 'react-native-web'
 function Layout(props) {
     return (
-        <View  style = {styles.background}>
+        <View >
          
         <Header/>
         
@@ -13,13 +13,14 @@ function Layout(props) {
       
         <Footer/>
       
-  </View>
+        </View>
  
     )
 }
-const styles = StyleSheet.create({
-   background:{
-       backgroundColor:'black'
-   }
+const styles = StyleSheet.create({ 
+    
+ 
+
 })
+  
 export default Layout;

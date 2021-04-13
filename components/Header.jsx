@@ -23,8 +23,8 @@ const styles = StyleSheet.create({
     fontStyle:'bold'
     },
     MyHeader:{
-      width: '100%',
-      height:'auto%',
+      width: 'auto',
+      height:'auto',
       backgroundColor:'#3b3534',
       position:'relative'
       

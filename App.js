@@ -12,7 +12,7 @@ export default class MyProjects extends React.Component{
   }
   render(){
   return (
-    <div>
+    <div style={{backgroundColor:'black',position:'relative'}}>
       <BrowserRouter>
     <Switch>
      
@@ -30,11 +30,4 @@ export default class MyProjects extends React.Component{
   );
 }
 }
-const styles = StyleSheet.create({ 
-  styleView :{ 
-    width: '100%',
-    height: 'auto',
-  position:'absolute',
-  backgroundColor:'black'}
-})
 
