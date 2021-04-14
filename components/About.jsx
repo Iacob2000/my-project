@@ -9,13 +9,12 @@ function About() {
             <View> {Data.map((data,index) => {
                 return <View key={data.id} style={styles.view}>
                   <h1 >{data.nume}</h1>
-                  <h2>{data.ani}</h2>
                   <h2>{data.about}</h2>
                   <h2>{data.experince}</h2>
                   <h2>{data.description}</h2>
                   <h3>{data.phone}</h3>
                   <h3>{data.email}</h3>
-                  <h3>{data.githup}</h3>
+                  <a style ={{color: 'black',position:'relative',left:'42%',fontSize:15,width:"15%",backgroundColor:'white',borderRadius:'10%',alignContent:'center',height:25}} href='https://github.com/Iacob2000'>Githup account</a>
                   <h2>{data.thanks}</h2>
                   </View>
                   

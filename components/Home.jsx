@@ -18,8 +18,8 @@ function Home() {
               <h1>{data.name}</h1>
               <h2>{data.descriere}</h2>
               <h3>{data.use}</h3>
-              <a style ={{color: 'black',position:'relative',left:'42%',fontSize:15,width:"15%",backgroundColor:'white',borderRadius:'10%',alignContent:'center'}} href={data.link}>Go to source code</a>
-              <a style ={{color: 'white',position:'relative',left:'42%',fontSize:15,width:"15%",backgroundColor:'black',borderRadius:'10%',alignContent:'center',top:15}} href={data.link}>Go to Google Play</a>
+              <a style ={{color: 'black',position:'relative',left:'42%',fontSize:15,width:"15%",backgroundColor:'white',borderRadius:'10%',alignContent:'center',height:25}} href={data.link}>Go to source code</a>
+              <a style ={{color: 'white',position:'relative',left:'42%',fontSize:15,width:"15%",backgroundColor:'black',borderRadius:'10%',alignContent:'center',top:15,height:25}} href={data.link}>Go to Google Play</a>
               
               <h3>{data.avalible}</h3>
               
