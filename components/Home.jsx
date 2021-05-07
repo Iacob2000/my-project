@@ -1,6 +1,6 @@
 import React from 'react';
 import {StyleSheet, View} from 'react-native-web';
-import Data from '../proiect/projects.json';
+import Data from '../projects.json';
 import Layout from './Layout';
 import {Link} from 'react-router-dom';
 import { Text } from 'react-native';

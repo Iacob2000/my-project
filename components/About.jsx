@@ -1,7 +1,7 @@
 import React from 'react';
 import Layout from '../components/Layout';
 import {Text,View,StyleSheet} from 'react-native-web';
-import Data from '../proiect/aboutMy.json';
+import Data from '../about.json';
 
 function About() {
     return (<div>
