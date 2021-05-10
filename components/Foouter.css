@@ -1,13 +1,13 @@
 .linkFoouter1 { 
-        width:'100%';
+        width: 100%;
         top: 5px;
         font-size: 15;
-        margin-left: 18%;
+        margin-left:18%;
         color: white;
         position: relative;
 }
 .linkFoouter2 { 
-        width:'100%';
+        width:100%;
         top: 5px;
         font-size: 15;
         color: white;
@@ -17,7 +17,7 @@
 }
 .MyFoouter {
         width:'100%';
-        height:auto;
+        height:130px;
         background-color: #3b3534;
         
   
@@ -37,7 +37,7 @@
         font-size: 20px;
         width: 30%;
         position: relative; 
-        top: 15px;
+        top: 17px;
 }
 .TextDetalii2{
         color:white;
@@ -54,5 +54,48 @@
         margin-top: 20;
         position:relative;
         margin-left: 80%;
-        top: 5px;
+        top: 7px;
     }
+    @media all and (max-width: 500px) {
+        .TextContact {
+         font-size: 20px;
+         width: 40%;
+       
+        }
+        .MyFoouter {
+         font-size: 20px;
+         height:230px;
+              
+        }
+        .TextDetalii1 {
+          font-size: 15px;
+          margin-left:150px;
+          top: 20px;
+                     
+        }
+        .TextDetalii2 {
+          font-size: 15px;
+          margin-left:150px;
+          top: 20px;
+                           
+        }
+        .linkFoouter1 {
+           font-size: 15px;
+           margin-left: 10%;
+           top: 60px;
+           width: 59%;
+                           
+        }
+         .linkFoouter2 {
+           font-size: 15px;
+           margin-left: 19%;
+           top: 60px;
+           width: 59%;          
+        }
+        .CopyWrite{
+           margin-left: 70%;
+           width: 45%;
+           top: 120px;
+           font-size: 10px;          
+        }
+}  

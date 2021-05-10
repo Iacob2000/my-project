@@ -1,5 +1,4 @@
 import React from 'react';
-import {StyleSheet, View} from 'react-native-web';
 import Data from '../projects.json';
 import Layout from './Layout';
 import './Home.css'
@@ -19,21 +18,16 @@ function Home() {
               <a className ="link1" href={data.link}>Go to source code</a>
               <a className ="link2" href={data.link}>Go to Google Play</a>
               
-              
-              
-            
-               <div>
+            <div style={{height:"auto"}}>
                <img className="img" src ={data.image}/>
-               </div>
-         
+            </div>
 
-
-              </div>
+         </div>
        
             })}
-            </div>
+         </div>
             </Layout>
-            </div>
+         </div>
             
     )
 }

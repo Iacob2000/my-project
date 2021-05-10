@@ -48,7 +48,9 @@
     .img {
         width: 300px;
         align-content: center;
-        padding: 70px;
+        padding-top: 60px;
+        position: relative;
+        
         
     }
  

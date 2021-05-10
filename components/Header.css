@@ -1,10 +1,10 @@
 
     .textHeader1 {
-      position: absolute;
-      top: 10px;
-      left: 100px;
-      font-size: 34px;
-      color:white;
+       position: absolute;
+       top: 10px;
+       left: 100px;
+       font-size: 34px;
+       color:white;
      
       }
      .MyHeader {
@@ -26,4 +26,25 @@
         border-radius:100%;
         position:relative;
         left:80%
+      }
+      @media all and (max-width: 500px) {
+        .textHeader1 {
+         font-size: 25px;
+         width: 40%;
+         left: 10px;
+         top: 20px;
+       
+        }
+        .image {
+          left: 50%;
+       
+        
+         }
+         .textHeader2 {
+          left: 280px;
+          width: 30%;
+          top: 20px;
+          font-size: 25px;
+ 
+         }
       }
