@@ -1,0 +1,58 @@
+.linkFoouter1 { 
+        width:'100%';
+        top: 5px;
+        font-size: 15;
+        margin-left: 18%;
+        color: white;
+        position: relative;
+}
+.linkFoouter2 { 
+        width:'100%';
+        top: 5px;
+        font-size: 15;
+        color: white;
+        position:relative;
+        margin-left: 9%;
+        
+}
+.MyFoouter {
+        width:'100%';
+        height:auto;
+        background-color: #3b3534;
+        
+  
+}
+.TextContact {
+        width:20%;
+        color:white;
+        font-size: 30px;
+        margin-top: 8;
+        margin-left: 5%;
+        position:absolute;
+
+}
+.TextDetalii1{
+        color:white;
+        margin-left:260px;
+        font-size: 20px;
+        width: 30%;
+        position: relative; 
+        top: 15px;
+}
+.TextDetalii2{
+        color:white;
+        margin-left:260px;
+        font-size: 20px;
+        width: 30%;
+        position: relative; 
+        top: 10px;
+}
+.CopyWrite {
+        color:white;
+        width: 25%;
+        font-size: 15px;
+        margin-top: 20;
+        position:relative;
+        margin-left: 80%;
+        top: 5px;
+    }

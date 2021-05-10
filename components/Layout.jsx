@@ -1,10 +1,11 @@
 import React from 'react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
-import {StyleSheet, View} from 'react-native-web'
+import {StyleSheet, View} from 'react-native-web';
+import './Layout.css'
 function Layout(props) {
     return (
-        <View >
+        <div className= "layout">
          
         <Header/>
         
@@ -13,14 +14,10 @@ function Layout(props) {
       
         <Footer/>
       
-        </View>
+        </div>
  
     )
 }
-const styles = StyleSheet.create({ 
-    
- 
 
-})
   
 export default Layout;

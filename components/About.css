@@ -1,0 +1,22 @@
+
+.view {
+        color:white;
+        background-color:#3b3534;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        transition: 0.3s;
+        border-radius: 5px;
+        height: 'auto';
+        margin: 8%;
+        text-align: center;
+
+         }
+.link { 
+       color: black;
+       position:'relative';
+       font-size:15;
+       width:"25%";
+       background-color:white;
+       border-radius:10%;
+       align-content:'center';
+       height:25
+         }

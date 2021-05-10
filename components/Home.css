@@ -1,0 +1,54 @@
+
+.ContainerText {
+        color:white;
+        position: relative;
+        left: 5%;
+        width:90%;
+        height: auto;
+        margin-inline-end:20%;
+        border-radius:10%;
+        background-color:#3b3534;
+        text-align: center
+     
+    }
+.Text {
+        color: white;
+        position: relative;
+        left: 5%;
+        width: 90%;
+        height:  auto;
+        margin-inline-end: 2%;
+        text-align: center;
+        font-size:150%
+    }
+    .link1 {
+        color: black;
+        position: relative;
+        font-size:15;
+        width: 15%;
+        background-color: white;
+        border-radius: 10%;
+        align-content: center; 
+        height:25 ;
+        left: 50px;
+    } 
+
+    .link2 {
+        color: white;
+        position: relative;
+        font-size:15;
+        width: 15%;
+        background-color: black;
+        border-radius: 10%;
+        height:25;
+        top: 35px;
+        align-content: center; 
+        right: 65px;
+    } 
+    .img {
+        width: 300px;
+        align-content: center;
+        padding: 70px;
+        
+    }
+ 

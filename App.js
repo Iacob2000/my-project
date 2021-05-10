@@ -3,7 +3,8 @@ import React ,{ Component }from 'react';
 import { StyleSheet} from 'react-native';
 import Home from './components/Home';
 import About from './components/About';
-import Page404 from './components/Page404'
+import Page404 from './components/Page404';
+
 
 export default class MyProjects extends React.Component{
   constructor() {
@@ -12,14 +13,14 @@ export default class MyProjects extends React.Component{
   }
   render(){
   return (
-    <div style={{backgroundColor:'black',position:'relative'}}>
-      <BrowserRouter>
+    <div style={{height:'auto',backgroundColor:'black'}} >
+    <BrowserRouter>
     <Switch>
      
     
     
    
-    <Route exact path='/' component={Home}/>
+      <Route exact path='/' component={Home}/>
       <Route path='/about' component={About}/>
       <Route path='*' component={Page404}/>
   
